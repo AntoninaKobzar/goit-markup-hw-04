@@ -221,7 +221,10 @@ ul {
         align-items: center;
 }
 .feature-icon {
-        fill: none;
+        width: 70px;
+        height: 70px;
+        fill: currentColor;
+        outline: 1px solid tomato;
 }
 .features .subtitle {
         margin-bottom: 10px;
@@ -230,7 +233,7 @@ ul {
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--primary-text-color);
+        /* color: var(--primary-text-color); */
 }
 .features .text {
         font-size: 14px;
