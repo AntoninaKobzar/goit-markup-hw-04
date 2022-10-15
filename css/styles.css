@@ -411,18 +411,24 @@ ul {
 .client-list {
         display: block;
         display: flex;
+        align-items: center;
+        gap: 30px;
+        justify-content: center;
         padding: 0;
 }
 
 .client {
-        display: block;
         display: flex;
         width: 170px;
         height: 92px;
         background-color: var(--aditional-color);
         justify-content: center;
         align-items: center;
-        fill: currentColor;
+        border-color: #AFB1B8;
+        border-radius: 4px;
+}
+.client:hover {
+        fill:var(--button-active-color);
 }
 
 .company-icon {
@@ -431,7 +437,8 @@ ul {
         justify-content: center;
         width: 106px;
         height: 60px;
-        fill: currentColor
+        background-color: var(--aditional-color);
+        fill: currentColor;
 }
 .section-clients .title {
         display: block;
