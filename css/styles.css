@@ -341,7 +341,6 @@ ul {
 }
 .staff .card-text {
         padding-top: 30px;
-        padding-bottom: 30px;
 }
 .staff-name {
         font-family: 'Roboto';
@@ -364,22 +363,14 @@ ul {
         letter-spacing: 0.03em;
         color: var(--accent-text-color);
 }
-.social-link {
-        padding: 0;
-        margin: 16px 32px 0 32px;
-}
-.social-link .item {
-        display: block;
+.social-net {
         display: flex;
-        width: 206px;
-        height: 44px;
-        padding: 0;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        box-shadow: none;
+        gap: 10px;
+        justify-content: center;
+        padding: 16px 32px 30px 32px;
+        list-style: none;
 }
-.staff-icon {
+.net-link {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -387,21 +378,16 @@ ul {
         height: 44px;
         background-color: #ffffff;
         border-radius: 50%;
-        fill: #AFB1B8;
+        
 }
-.staff-icon:hover {
+.net-link:hover {
         background-color: var(--button-active-color);
 }
-.cocial-icon {
-        display: block;
-        display: flex;
-        width: 20px;
-        height: 20px;
-        align-items: center;
-        justify-content: center;
+.net-icon {
+        fill: #AFB1B8;
 
 }
-.cocial-icon:hover {
+.net-icon:hover {
         fill: var(--aditional-color);
 }
 .section-clients {
