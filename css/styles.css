@@ -41,6 +41,7 @@ ul {
 .main-nav {
         display: flex;
         justify-content: center;
+        align-items: center;
         padding: 0 auto;
 }
 .logo-header {
@@ -106,6 +107,7 @@ ul {
 .site-auth .link {
         display: block;
         display:flex;
+        min-width: 161px;
         padding: 32px 0;
         color: var(--accent-text-color);
         font-size: 14px;
@@ -128,7 +130,7 @@ ul {
 }
 .site-auth {
         display: flex;
-        display:block
+        display:block;
         align-items: center;
         justify-content: center;
         padding: 0;
@@ -223,7 +225,7 @@ ul {
 .feature-icon {
         width: 70px;
         height: 70px;
-        fill: currentColor;
+        /* fill: currentColor; */
         outline: 1px solid tomato;
 }
 .features .subtitle {
@@ -419,11 +421,12 @@ ul {
 
 .client {
         display: flex;
-        width: 170px;
+        width: 170px; 
         height: 92px;
         background-color: var(--aditional-color);
         justify-content: center;
         align-items: center;
+        border: 1px;
         border-color: #AFB1B8;
         border-radius: 4px;
 }
@@ -509,6 +512,28 @@ ul {
 .address a:focus,
 .address a:hover {
   color: var(--button-active-color);
+}
+.footer-links {
+        display: block;
+        display: flex;
+        width: 206px;
+        height: 80px;
+        padding: 0;
+        margin-left: 70px;
+        margin-top: 72px;
+        align-items: center;
+        justify-content: center;
+        
+}
+.page-footer .item {
+        list-style: none;
+}
+.page-footer .subtitle  {
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--aditional-color);
 }
 /*Portfolio*/
 .section-portfolio {
