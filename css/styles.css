@@ -115,6 +115,11 @@ ul {
         text-decoration: none;
 }
 .site-auth .item {
+        display: flex;
+        display: block;
+        min-width: 161px;
+        justify-content: center;
+        align-items: center;
         list-style: none;
 }
 .site-auth .link:hover,
@@ -123,7 +128,9 @@ ul {
 }
 .site-auth {
         display: flex;
+        display:block
         align-items: center;
+        justify-content: center;
         padding: 0;
         margin-left: auto;
 }
