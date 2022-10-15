@@ -215,14 +215,17 @@ ul {
         display: flex;
         width: 270px;
         height: 120px;
-        /* background-color: var(--aditional-color); */
-        padding: 0;
-        margin-bottom: 30px;
+        gap: 30px;
+        background-color: var(--aditional-color); 
+        margin: 0 0 30px 0;
         justify-content: center;
         align-items: center;
+        outline: 1px solid tomato;
 }
 .feature-icon {
-        /* fill: currentColor; */
+        fill: currentColor; 
+        width: 70px;
+        height: 70px;
         outline: 1px solid tomato;
 }
 .features .subtitle {
