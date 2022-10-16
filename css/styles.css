@@ -510,8 +510,9 @@ ul {
   color: var(--button-active-color);
 }
 .page-footer .net-link {
-        background-color:var(--aditional-color) 10%;
-        color: var(--aditional-color);
+        background-color:rgba(255, 255, 255, 0.1);
+        
+        color:var(--aditional-color);
 }
 .page-footer .net-icon {
         fill: currentColor;
