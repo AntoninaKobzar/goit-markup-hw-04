@@ -370,7 +370,7 @@ ul {
         justify-content: center;
         width: 44px;
         height: 44px;
-        background-color: #ffffff;
+        background-color:var(--aditional-color);
         border-radius: 50%;
         color:#AFB1B8;
         
@@ -380,7 +380,7 @@ ul {
 } 
 .net-link:hover,
 .net-link:focus {
-        background-color: var(--button-active-color);
+        background-color:var(--button-active-color);
         fill:var(--aditional-color);
 }
 .section-clients {
@@ -411,7 +411,7 @@ ul {
         background-color: var(--aditional-color); 
         color: #AFB1B8;
 }
-.client-icon {
+.company-icon {
         fill:currentColor;
 }
  .client-item:hover,
@@ -503,7 +503,6 @@ ul {
 }
 .page-footer .net-link {
         background-color:rgba(255, 255, 255, 0.1);
-        
         color:var(--aditional-color);
 }
 .page-footer .net-icon {
