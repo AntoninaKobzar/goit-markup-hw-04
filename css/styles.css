@@ -364,7 +364,7 @@ ul {
         padding: 16px 32px 30px 32px;
         list-style: none;
 }
-.net-link {
+.net-item {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -378,8 +378,8 @@ ul {
 .net-icon {
         fill: currentColor;
 } 
-.net-link:hover,
-.net-link:focus {
+.net-item:hover,
+.net-item:focus {
         background-color:var(--button-active-color);
         fill:var(--aditional-color);
 }
