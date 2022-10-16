@@ -399,7 +399,7 @@ ul {
         list-style: none;
 }
 
-.client-item {
+.client-link {
         display: block;
         display: flex; 
         width: 170px;  
@@ -414,11 +414,11 @@ ul {
 .company-icon {
         fill:currentColor;
 }
- .client-item:hover,
- .client-item:focus {
+ .client-link:hover,
+ .client-link:focus {
         outline: 1px solid var(--button-active-color);
         border-radius: 4%;
-        fill:var(--button-active-color)
+        color:var(--button-active-color)
  }
 
 .company-icon {
