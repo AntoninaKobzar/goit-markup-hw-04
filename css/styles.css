@@ -381,13 +381,14 @@ ul {
 .net-link:hover,
 .net-link:focus {
         background-color: var(--button-active-color);
-        fill:var(--aditional-color);
+        color:var(--aditional-color);
 }
 
 
-/* .net-icon:hover {
-        fill: var(--aditional-color);
-} */
+.net-icon:hover,
+.net-icon:focus {
+        fill: currentColor;
+} 
 .section-clients {
         width: 100%;
         padding-bottom: 94px;
@@ -415,15 +416,17 @@ ul {
         border-radius: 4%;
         background-color: var(--aditional-color); 
 }
-.client-link {
-        fill:#AFB1B8;
+.client-icon {
+        fill:currentColor;
 }
- .client-item:hover {
+ .client-item:hover,
+ .client-item:focus {
         outline: 1px solid var(--button-active-color);
-                border-radius: 4%;
+        border-radius: 4%;
  }
-.company-icon:hover {
-        fill:var(--button-active-color);
+.company-icon:hover,
+.company-icon:focus {
+        fill:currentColor;
 }
 
 .company-icon {
@@ -432,8 +435,6 @@ ul {
         justify-content: center;
         width: 106px;
         height: 60px;
-        /* background-color: var(--aditional-color);
-        fill: currentColor; */
 }
 .section-clients .title {
         display: block;
@@ -508,14 +509,17 @@ ul {
   color: var(--button-active-color);
 }
 .page-footer .net-link {
-        background-color: transparent;
-}
-.page-footer .net-link:hover {
-        background-color: var(--button-active-color);
+        background-color:var(--aditional-color) 10%;
+        color: var(--aditional-color);
 }
 .page-footer .net-icon {
-        fill:var(--aditional-color);
+        fill: currentColor;
 }
+.page-footer .net-link:hover,
+.page-footer .net-link:focus {
+        background-color: var(--button-active-color);
+}
+
 .page-footer .item {
         list-style: none;
 }
