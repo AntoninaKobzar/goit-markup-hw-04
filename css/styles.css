@@ -383,12 +383,6 @@ ul {
         background-color: var(--button-active-color);
         fill:var(--aditional-color);
 }
-
-
-/* .net-icon:hover,
-.net-icon:focus {
-        fill: var(--aditional-color);
-}   */
 .section-clients {
         width: 100%;
         padding-bottom: 94px;
@@ -415,6 +409,7 @@ ul {
         outline: 1px solid #AFB1B8;
         border-radius: 4%;
         background-color: var(--aditional-color); 
+        color: #AFB1B8;
 }
 .client-icon {
         fill:currentColor;
@@ -423,11 +418,8 @@ ul {
  .client-item:focus {
         outline: 1px solid var(--button-active-color);
         border-radius: 4%;
+        fill:var(--button-active-color)
  }
-.company-icon:hover,
-.company-icon:focus {
-        fill:currentColor;
-}
 
 .company-icon {
         display: flex;
