@@ -381,14 +381,14 @@ ul {
 .net-link:hover,
 .net-link:focus {
         background-color: var(--button-active-color);
-        color:var(--aditional-color);
+        fill:var(--aditional-color);
 }
 
 
 /* .net-icon:hover,
 .net-icon:focus {
         fill: var(--aditional-color);
-}  */
+}   */
 .section-clients {
         width: 100%;
         padding-bottom: 94px;
