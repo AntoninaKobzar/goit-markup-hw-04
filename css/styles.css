@@ -450,9 +450,10 @@ ul {
 }
 /*Footer*/
 .page-footer {
-        padding-bottom: 60px;
-        padding-top: 60px;
         background-color: #2F303A;
+        display: block;
+        display: flex;
+        align-items: baseline;
 }
 .logo-footer {
         font-family: 'Raleway';
@@ -523,11 +524,6 @@ ul {
 .page-footer .item {
         list-style: none;
 }
-.page-footer {
-        display: block;
-        display: flex;
-        align-items: baseline;
-}
 .page-footer .subtitle  {
         display: block;
         display: flex;
@@ -553,7 +549,7 @@ ul {
         padding: 0;
 }
 .footer-links:last-child {
-        margin: 72px auto 40px 70px;
+        margin-left: 70px;;
 }
 .page-footer .social-net {
         padding: 0;
