@@ -374,15 +374,17 @@ ul {
         border-radius: 50%;
         
 }
+.net-icon {
+        fill: #AFB1B8;
+
+}
 .net-link:hover,
 .net-link:focus {
         background-color: var(--button-active-color);
         fill:var(--aditional-color);
 }
-.net-icon {
-        fill: #AFB1B8;
 
-}
+
 /* .net-icon:hover {
         fill: var(--aditional-color);
 } */
